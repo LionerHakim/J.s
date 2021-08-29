@@ -1,6 +1,4 @@
 // vite.config.js
-import './main'
-
 const { resolve } = require('path')
 const { defineConfig } = require('vite')
 
