@@ -1,7 +1,7 @@
 module.exports = {
   purge: [
     './index.html',
-    './assets/javascripts/custom.js'
+    './main.js'
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
