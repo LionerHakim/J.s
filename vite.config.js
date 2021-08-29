@@ -5,7 +5,7 @@ const { defineConfig } = require('vite')
 module.exports = defineConfig({
   build: {
     rollupOptions: {
-      external: ["main.js"]
+      external: ["./main.js"]
     }
   }
 })
