@@ -1,3 +1,5 @@
+import $ from "jquery"
+
 var text = [
     "SAYANGKU", 
     "KALO KAMU LIHAT PESAN INI", 
