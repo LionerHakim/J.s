@@ -9,7 +9,9 @@ module.exports = {
       colors: {
         new: {
           background: '#F2FFD0',
-          brown: '#8A4858'
+          brown: '#8A4858',
+          quotes: '#A38F79',
+          footer: '#846E57'
         }
       },
       fontFamily: {

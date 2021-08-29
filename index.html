@@ -7,7 +7,12 @@
     <link rel="stylesheet" href="/assets/stylesheets/style.css">
     <title>Congratulation, sayangku !</title>
 </head>
-<body class="">
+<body class="overflow-hidden lg:overflow-visible">
+    <div class="mobile bg-blue-500 h-screen p-10 flex lg:hidden">
+        <div class="m-auto justify-center">
+            <p class="text-white text-2xl text-center" id="text"></p>
+        </div>
+    </div>
     <header class="flex h-14 absolute">
         <a href="/" class="px-10 my-auto">MEGA APRIYANI TARWIYAH, S. Pd</a>
     </header>
@@ -17,9 +22,9 @@
                 <div class="my-auto flex-auto text-new-brown">
                     <h1 class="text-5xl font-cabin">Selamat "S. Pd" Sayang!</h1>
                     <div class="font-opensans py-5">
-                        <p>Semoga perjuangan kamu selama kuliah...</p>
-                        <p>Capek nya kamu selama skripsi...</p>
-                        <p class="mt-5">Menjadi jalan berkahnya ilmu yang kamu peroleh ya &#128519;</p>        
+                        <p class="text-lg">Semoga perjuangan kamu selama kuliah...</p>
+                        <p class="text-lg">Capek nya kamu selama skripsi...</p>
+                        <p class="mt-5 text-xl">Menjadi jalan berkahnya ilmu yang kamu peroleh ya &#128519;</p>        
                     </div>
                 </div>
             </section>
@@ -39,45 +44,45 @@
             </section>
         </article>
         <article class="quotes p-10">
-            <section class="h-60 flex flex-col py-5">
-                <div class="h-2/3 flex flex-col">
+            <section class="flex flex-col py-5">
+                <div class="flex flex-col">
                     <div class="my-auto">
-                        <p>Sekalipun udah selesai kuliah...</p>
-                        <p>Kamu harus #StayCurious &#128521;. Oke...</p>        
+                        <p class="font-opensans text-2xl">Sekalipun udah selesai kuliah...</p>
+                        <p class="font-cabin text-3xl font-semibold mt-5">Kamu harus #StayCurious &#128521;. Oke...</p>        
                     </div>
                 </div>
-                <div class="text-center h-1/3">
-                    <p class="m-auto">Kamu bisa mulai explore hobi yang kamu suka, atau suatu hal yang "mungkin" belom sempet kamu lakuin karena kesibukan kuliah dan ngajar kamu sayang...</p>
+                <div class="text-center h-24 flex items-center">
+                    <p class="flex-auto font-opensans text-lg">Kamu bisa mulai explore hobi yang kamu suka, atau suatu hal yang "mungkin" belom sempet kamu lakuin karena kesibukan kuliah dan ngajar kamu sayang...</p>
                 </div>
             </section>
             <section class="text-center flex py-5">
-                <div class="w-72 mx-auto px-5">
-                    <img src="/assets/img/OrangGanteng.jpg" alt="Poto orang ganteng" class="h-auto">
-                    <div class="p-2 mt-4">
-                        <p><span class="italic">"Intinya jangan pernah berhenti belajar, karena kamu kan calon ibu dari anak-anak kita kelak </span>&#128536;&#128536;"</p>
-                        <p class="italic mt-2 font-semibold">-- Orang Ganteng</p>    
+                <div class="w-80 mx-auto px-5">
+                    <img src="/assets/img/OrangGanteng.jpg" alt="Poto orang ganteng" class="h-auto shadow-lg">
+                    <div class="mt-4">
+                        <p><span class="italic font-opensans">"Intinya jangan pernah berhenti belajar, karena kamu kan calon ibu dari anak-anak kita kelak </span>&#128536;&#128536;"</p>
+                        <p class="italic mt-2 font-semibold font-opensans">-- Orang Ganteng</p>    
                     </div>
                 </div>
             </section>
         </article>
-        <article class="bg-yellow-700">
+        <article class="bg-new-quotes h-auto">
             <div class="p-10">
-                <p>Maafin aku ya belom bisa hadir pas kamu sidang skripsi...</p>
-                <p>Walaupun begitu, aku selalu doain kamu dari sini supaya lancar sidangnya &#128522;</p>
-                <p>Maafin juga ya kalo desain web nya gak terlalu bagus, aku gak jago samasekali soal desain. Hahaha...</p>
-                <p>Tapi tetep kok, maksud dan tujuannya sebagai bentuk <span>apresiasi</span> untuk kamu yang berhasil melewati tahap akhir menuju kelulusan &#128513;</p>
-                <p>Doain aku juga ya supaya bisa nyusul kamu sayang &#128536;</p>
-                <p>Who always loving you,</p>
-                <p>Me</p>    
+                <p class="text-xl text-white font-opensans font-light">Maafin aku ya belom bisa hadir pas kamu sidang skripsi...</p>
+                <p class="text-xl text-white font-opensans font-light mb-5">Walaupun begitu, aku selalu doain kamu dari sini supaya lancar sidangnya &#128522;</p>
+                <p class="text-xl text-white font-opensans font-light">Maafin juga ya kalo desain web nya gak terlalu bagus, aku gak jago samasekali soal desain. Hahaha...</p>
+                <p class="text-xl text-white font-opensans font-light mb-5">Tapi tetep kok, maksud dan tujuannya sebagai bentuk <span>apresiasi</span> untuk kamu yang berhasil melewati tahap akhir menuju kelulusan &#128513;</p>
+                <p class="text-xl text-white font-opensans font-light mb-7">Doain aku juga ya supaya bisa nyusul kamu sayang &#128536;</p>
+                <p class="text-xl text-white font-opensans font-light mb-14">Who always loving you,</p>
+                <p class="text-xl text-white font-opensans font-bold">Me</p>    
             </div>
         </article>
     </main>
-    <footer class="h-14 flex">
+    <footer class="h-14 flex bg-new-footer text-white">
         <p class="m-auto">&copy; 2021. Congratulation Mega | Made with &#10084; by <a href="https://learnwithghaniy.web.id">Learn With Ghaniy</a></p>
     </footer>
 
 
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="/assets/javascripts/custom.js"></script>
 </body>
 </html>
