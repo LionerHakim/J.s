@@ -7,7 +7,8 @@
   "author": "Abdul Hakim Ghaniy",
   "license": "MIT",
   "scripts": {
-    "server": "vite"
+    "server": "vite",
+    "build": "vite build"
   },
   "dependencies": {
     "autoprefixer": "^10.3.3",
